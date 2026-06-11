@@ -19,6 +19,12 @@
     - `post /api/system/tools/happ/encrypt`
     - `post /api/system/testers/srr-matcher`
     - `get /api/system/stats/recap`
+- Additional official snippets also подтверждают:
+  - `Users Controller` c operations для user management
+  - `Hosts Controller` c operations для host management
+  - `Config Profiles Controller`
+  - `[Protected] Subscriptions Controller`
+  - `get /api/remnawave-settings`
 
 ## Ограничение
 

@@ -12,6 +12,12 @@
   - `External Squads`
   - `Routing Rules`
 
+## Разграничение
+
+- `Templates` отвечают за family-specific config output.
+- `Routing Rules` в этом контексте относятся к subscription/template delivery logic.
+- Это не то же самое, что `Server-Side Routing` для node-side traffic path.
+
 ## Families
 
 - `Mihomo`

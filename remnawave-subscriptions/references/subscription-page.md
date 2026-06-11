@@ -20,10 +20,10 @@
 
 ## Bundled
 
-- Использует `REMNAWAVE_PANEL_URL=http://remnawave:3000`.
-- Порт по примеру docs: `127.0.0.1:3010:3010`.
+- Docs показывают bundled-схему, где `REMNAWAVE_PANEL_URL` указывает на внутренний Panel service.
+- Docs также показывают loopback publish для subscription page container на локальный host port `3010`.
 
 ## Separate server
 
-- Использует публичный panel URL вроде `https://remnawave.panel.com`.
+- Docs показывают separate-server схему, где `REMNAWAVE_PANEL_URL` указывает на публичный Panel domain.
 - Шаги выполняются на другом сервере.

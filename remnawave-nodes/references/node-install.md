@@ -21,6 +21,7 @@
 
 - `Node Port` нужен для internal API requests от Panel.
 - Docs просят закрыть `NODE_PORT` firewall-правилом, разрешив его только для IP Panel.
+- Docs также отмечают, что после создания Node Panel в течение нескольких секунд подключается к нему и запускает `Xray-core`.
 
 ## Advanced Usage
 

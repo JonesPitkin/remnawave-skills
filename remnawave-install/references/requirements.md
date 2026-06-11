@@ -20,5 +20,4 @@
 ## Software
 
 - Panel и Node требуют `Docker` с `Docker Compose plugin`.
-- Официальная команда установки Docker:
-  - `sudo curl -fsSL https://get.docker.com | sh`
+- Официальная requirements page показывает install command для Docker, но этот файл фиксирует только сам факт требования Docker, без вынесения внешней Docker-ссылки в local reference.

@@ -10,6 +10,7 @@
 - Browser получает human-readable page.
 - Client application получает subscription в подходящем формате.
 - Remnawave автоматически определяет тип клиента.
+- В browser открытие subscription URL служит визуальной проверкой, что subscription side настроен корректно.
 
 ## Основные format families
 
