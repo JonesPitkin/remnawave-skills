@@ -1,0 +1,4 @@
+name: remnawave
+description: Repository entry skill for Remnawave planning and source-backed operations.
+metadata:
+  default_prompt: "Use $remnawave to frame a Remnawave task and verify it against official upstream sources."
