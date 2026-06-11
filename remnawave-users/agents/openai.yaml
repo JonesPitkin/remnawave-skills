@@ -1,0 +1,4 @@
+interface:
+  display_name: "Remnawave Users"
+  short_description: "Users, quotas, access settings и user actions"
+  default_prompt: "Use $remnawave-users to create or manage Remnawave users only within the official documented UI and workflows."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Remnawave Nodes"
+  short_description: "Node deployment, panel binding и node-side Xray workflows"
+  default_prompt: "Use $remnawave-nodes to install or troubleshoot Remnawave Node using only official Remnawave instructions."
