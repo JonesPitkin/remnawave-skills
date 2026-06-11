@@ -1,0 +1,4 @@
+interface:
+  display_name: "Remnawave API"
+  short_description: "API Tokens, Swagger, Scalar и official interactive spec"
+  default_prompt: "Use $remnawave-api to work with Remnawave REST API only through official docs and documented token workflows."
