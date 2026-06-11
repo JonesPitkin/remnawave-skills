@@ -1,9 +1,11 @@
 # Release v1.0.0
 
-Initial public release of `remnawave-skills`.
+Первый publish-ready релиз `remnawave-skills`.
 
 ## Highlights
 
-- publish-ready standalone baseline repository for Remnawave
-- aggregate repository router skill
-- official-links index for upstream verification
+- полная skill-структура по Remnawave;
+- локальные official references;
+- русский текст с сохранением оригинальной терминологии Remnawave;
+- Codex-compatible `agents/openai.yaml` для каждого skill;
+- готовность к первому GitHub push.

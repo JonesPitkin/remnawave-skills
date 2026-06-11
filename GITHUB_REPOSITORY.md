@@ -1,7 +1,9 @@
 # GitHub Repository Metadata
 
 - name: `remnawave-skills`
-- description: `AI Skill Repository for Remnawave panel, nodes, routing, and operations based on official Remnawave resources.`
+- description: `NIDOX Skills repository for Remnawave installation, nodes, users, subscriptions, Config Profiles, Happ Routing, REST API and troubleshooting based only on official Remnawave sources.`
 - visibility: `public`
 - default branch: `main`
 - license: `MIT`
+- upstream documentation: `https://docs.rw`
+- upstream organization: `https://github.com/remnawave`

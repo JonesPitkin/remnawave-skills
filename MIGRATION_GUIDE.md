@@ -1,9 +1,24 @@
 # Migration Guide
 
-## From `nidox-vpn-skills/skills/remnawave`
+## From the old baseline
 
-The legacy `skills/remnawave/` directory in `nidox-vpn-skills` remains a compatibility marker. The standalone source of truth is this repository.
+Старая версия `remnawave-skills` содержала только один router skill и минимальные official links.
 
-## Current State
+Теперь source of truth в этом репозитории включает полноценный skill tree:
 
-This repository starts as a publish-ready baseline because the old meta-repository contained only a placeholder entrypoint for Remnawave. Expand detailed runbooks here and then sync the full copy back into `nidox-vpn-skills/remnawave-skills/`.
+- install
+- users
+- nodes
+- config profiles
+- subscriptions
+- happ routing
+- api
+- troubleshooting
+
+## Migration rule for downstream bundles
+
+Если репозиторий встраивается в `nidox-vpn-skills` или иной meta-repository:
+
+- синхронизировать весь каталог `remnawave-skills/` целиком;
+- не вырезать `references/`;
+- не подменять official-source policy неофициальными гидами.

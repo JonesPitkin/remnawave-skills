@@ -1,7 +1,14 @@
 # Version Matrix
 
-| Area | Coverage Policy | Source of Truth |
+| Area | Baseline | Source of Truth |
 |---|---|---|
-| Remnawave panel behavior | verify current official repository and docs before production changes | official Remnawave resources |
-| node and integration workflows | verify current deployment model and release notes | official Remnawave resources |
-| repository release | current standalone repository release is `v1.0.0` | this repository |
+| Initial Setup learning guide | `Panel 2.0+` | `https://docs.rw/docs/learn-en/quick-start/` |
+| Install and env behavior | current official docs | `https://docs.rw/docs/install/` |
+| REST API surface | current interactive spec | `https://docs.rw/api/` |
+| Public repository state | checked `2026-06-11` | `https://github.com/remnawave` |
+| Local repository release | `v1.0.0` | this repository |
+
+## Policy
+
+- Этот репозиторий не замораживает все версии Remnawave в локальную “спецификацию”.
+- Если поведение зависит от релиза, upstream UI или API schema, проверять актуальные official sources перед production mutation.

@@ -1,5 +1,7 @@
 # Contributing
 
-- use official Remnawave sources for deployment, panel, node, and API behavior
-- avoid speculative operational claims without upstream confirmation
-- keep examples sanitized and portable
+- Использовать только официальные источники Remnawave: `docs.rw` и `github.com/remnawave`.
+- Не использовать сторонние статьи, форумы и неофициальные how-to как источник фактов.
+- Все материалы писать на русском языке, сохраняя технические команды и имена компонентов на английском языке.
+- Если в официальной документации нет подтверждения, явно писать, что информация отсутствует в официальных источниках.
+- Не придумывать API endpoints, Node fields, Xray behavior или Happ workflows.

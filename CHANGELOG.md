@@ -2,7 +2,16 @@
 
 ## v1.0.0
 
-- created publish-ready standalone repository for Remnawave skills
-- added aggregate repository skill [`remnawave`](remnawave/SKILL.md)
-- established official-links and migration metadata
-- prepared full-copy embedding into `nidox-vpn-skills`
+- оформлен publish-ready репозиторий `remnawave-skills` на русском языке;
+- добавлен repository router [`remnawave`](remnawave/SKILL.md);
+- добавлены specialist skills:
+  - `remnawave-install`
+  - `remnawave-users`
+  - `remnawave-nodes`
+  - `remnawave-config-profiles`
+  - `remnawave-subscriptions`
+  - `remnawave-happ-routing`
+  - `remnawave-api`
+  - `remnawave-troubleshooting`
+- добавлены локальные `references/` только по официальным источникам `docs.rw` и `github.com/remnawave`;
+- обновлены README, index-файлы и metadata для публичной публикации на GitHub.

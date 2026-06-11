@@ -1,4 +1,4 @@
 name: remnawave
-description: Repository entry skill for Remnawave planning and source-backed operations.
+description: Repository entry skill for routing Remnawave tasks to the correct specialist module.
 metadata:
-  default_prompt: "Use $remnawave to frame a Remnawave task and verify it against official upstream sources."
+  default_prompt: "Use $remnawave to classify a Remnawave task, choose the right specialist skill, and keep all guidance limited to official Remnawave sources."
