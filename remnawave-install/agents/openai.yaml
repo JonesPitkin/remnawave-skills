@@ -1,4 +1,4 @@
-interface:
-  display_name: "Remnawave Install"
-  short_description: "Установка Panel, .env, reverse proxy и security baseline"
+name: remnawave-install
+description: Установка Panel, .env, reverse proxy и security baseline.
+metadata:
   default_prompt: "Use $remnawave-install to install or validate Remnawave Panel strictly against official Remnawave documentation."

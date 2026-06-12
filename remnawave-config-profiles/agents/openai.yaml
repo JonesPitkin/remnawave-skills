@@ -1,4 +1,4 @@
-interface:
-  display_name: "Remnawave Config Profiles"
-  short_description: "Config Profiles, Inbounds и activation chain Node -> Host -> Squad"
+name: remnawave-config-profiles
+description: Config Profiles, Inbounds и activation chain Node -> Host -> Squad.
+metadata:
   default_prompt: "Use $remnawave-config-profiles to create or validate Remnawave Config Profiles without inventing undocumented Xray behavior."

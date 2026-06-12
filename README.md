@@ -2,7 +2,7 @@
 
 ![Remnawave logo](https://github.com/remnawave.png)
 
-`remnawave-skills` — публичный репозиторий NIDOX Skills для source-backed работы с Remnawave только по официальным материалам `docs.rw` и `github.com/remnawave`.
+`remnawave-skills` — standalone-репозиторий NIDOX Skills для source-backed работы с Remnawave только по официальным материалам `docs.rw` и `github.com/remnawave`.
 
 Репозиторий нужен для того, чтобы Codex уверенно и без домыслов работал с:
 
@@ -35,8 +35,11 @@
 
 ## Доступные skills
 
+- [`SKILL.md`](SKILL.md)
+  Главный корневой entrypoint standalone-репозитория.
+
 - [`remnawave`](remnawave/SKILL.md)
-  Совместимый entrypoint/router для маршрутизации задачи к нужному specialist skill.
+  Совместимый router skill для маршрутизации задачи к нужному specialist skill.
 - [`remnawave-install`](remnawave-install/SKILL.md)
   Установка Panel, базовая подготовка `.env`, reverse proxy, security baseline.
 - [`remnawave-users`](remnawave-users/SKILL.md)
@@ -58,6 +61,9 @@
 
 ```text
 remnawave-skills/
+├── SKILL.md
+├── agents/
+│   └── openai.yaml
 ├── README.md
 ├── LICENSE
 ├── CHANGELOG.md
@@ -66,7 +72,12 @@ remnawave-skills/
 ├── MIGRATION_GUIDE.md
 ├── RELEASE_v1.0.0.md
 ├── SKILL_INDEX.md
+├── SKILL_DEPENDENCIES.md
 ├── VERSION_MATRIX.md
+├── references/
+│   ├── repository-map.md
+│   ├── sources.md
+│   └── standalone-compatibility.md
 ├── remnawave/
 │   ├── SKILL.md
 │   ├── agents/
@@ -116,6 +127,20 @@ remnawave-skills/
 - если задача зависит от конкретного UI, поля в форме, API schema или runtime behavior, сверять текущие official docs и актуальный GitHub state перед production-изменениями;
 - если нужная функция не описана явно, не считать её подтвержденной.
 
+## Зависимости
+
+Required:
+
+- [`network-fundamentals-skill`](../network-fundamentals-skill/README.md)
+  Обязательная базовая зависимость для сетевой теории, DNS, routing, TLS, reverse proxy, firewall и host-side networking.
+
+Recommended:
+
+- [`nidox-vpn-detection-defense-skill`](../nidox-vpn-detection-defense-skill/README.md)
+  Рекомендуемый аудиторский слой для дополнительной проверки VPN detection risks, security posture и publication mistakes.
+
+Подробная карта зависимостей: [SKILL_DEPENDENCIES.md](SKILL_DEPENDENCIES.md)
+
 ## Официальная документация
 
 - [Remnawave Documentation](https://docs.rw)
@@ -138,6 +163,9 @@ remnawave-skills/
 
 Репозиторий подготовлен к публикации:
 
+- есть корневой `SKILL.md` как standalone entrypoint;
+- есть корневой `agents/openai.yaml` и корневой `references/`;
+- есть [SKILL_DEPENDENCIES.md](SKILL_DEPENDENCIES.md) с required/recommended dependency policy;
 - есть MIT License;
 - есть skill tree и локальные `references/`;
 - есть `agents/openai.yaml` для каждого skill;

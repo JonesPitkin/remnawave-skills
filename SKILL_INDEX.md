@@ -1,5 +1,6 @@
 # Skill Index
 
+- [`root`](SKILL.md): главный standalone entrypoint репозитория.
 - [`remnawave`](remnawave/SKILL.md): repository router и совместимый entrypoint для выбора specialist skill.
 - [`remnawave-install`](remnawave-install/SKILL.md): installation, `.env`, reverse proxy и security baseline.
 - [`remnawave-users`](remnawave-users/SKILL.md): Users, quotas, subscription expiration, squads и user actions.

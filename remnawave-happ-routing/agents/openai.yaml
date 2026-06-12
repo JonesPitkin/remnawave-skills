@@ -1,4 +1,4 @@
-interface:
-  display_name: "Remnawave Happ Routing"
-  short_description: "Happ Routing only within officially documented scope"
+name: remnawave-happ-routing
+description: Happ Routing only within officially documented scope.
+metadata:
   default_prompt: "Use $remnawave-happ-routing to explain or validate Happ Routing without inventing undocumented builder fields or rules."

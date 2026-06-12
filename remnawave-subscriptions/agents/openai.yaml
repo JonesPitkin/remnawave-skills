@@ -1,4 +1,4 @@
-interface:
-  display_name: "Remnawave Subscriptions"
-  short_description: "Subscription URL, Hosts, Templates и Subscription Page"
+name: remnawave-subscriptions
+description: Subscription URL, Hosts, Templates и Subscription Page.
+metadata:
   default_prompt: "Use $remnawave-subscriptions to configure Remnawave subscription delivery only with officially documented behavior."

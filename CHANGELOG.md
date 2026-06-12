@@ -13,5 +13,6 @@
   - `remnawave-happ-routing`
   - `remnawave-api`
   - `remnawave-troubleshooting`
+- добавлен корневой standalone entrypoint `SKILL.md` с `agents/openai.yaml` и корневым `references/`;
 - добавлены локальные `references/` только по официальным источникам `docs.rw` и `github.com/remnawave`;
 - обновлены README, index-файлы и metadata для публичной публикации на GitHub.

@@ -1,4 +1,4 @@
-interface:
-  display_name: "Remnawave Troubleshooting"
-  short_description: "Install/runtime troubleshooting for Panel, Node, API and subscriptions"
+name: remnawave-troubleshooting
+description: Install/runtime troubleshooting for Panel, Node, API and subscriptions.
+metadata:
   default_prompt: "Use $remnawave-troubleshooting to isolate a Remnawave problem by layer and fix it only with officially documented checks."
